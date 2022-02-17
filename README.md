@@ -18,4 +18,5 @@ Ruby on Rails, PostgreSQL
 ## Potential imporvements
 
 - Seperation of customer and vehicles, and then an established one to many relationship to account for customers who may have multiple vehicles.
-- Actions for deleting a customer or editing a customers information
+- Actions for deleting a customer or editing a customers information.
+- Unit testing with Jest.
