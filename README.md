@@ -1,24 +1,21 @@
-# README
+# outdoor.sy BackEnd
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+outdoor.sy allows users to upload CSV or DSV files via a simple drag and drop interface, and then displays the data in an easy to use/read table. The table can be sorted by any of the table values in ascending or descending order by clicking the headings!
 
-Things you may want to cover:
+## Technology
 
-* Ruby version
+Ruby on Rails, PostgreSQL
 
-* System dependencies
+## Use/Installation
 
-* Configuration
+1. Clone repo
+2. ```bundle install```
+3. ```rails db:create```
+4. ```rails db:migrate```
+5. ```rails db:seed```
+6. ```rails s``` (Port 3000)
 
-* Database creation
+## Potential imporvements
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Seperation of customer and vehicles, and then an established one to many relationship to account for customers who may have multiple vehicles.
+- Actions for deleting a customer or editing a customers information
